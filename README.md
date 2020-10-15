@@ -1,9 +1,10 @@
 # Discord Clone
 
-![screenshot](./public/airbnb.png)
+![screenshot](./public/discord.png)
 
 This is a clone of the Discord web app using React. It uses google for authentication, communication is broken into different channels and stores messages using firestore.
 
+ Live link: https://discord-clone-dd4e1.web.app
 
 ## Built With
 
