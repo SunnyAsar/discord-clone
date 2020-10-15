@@ -52,7 +52,7 @@ function Chat() {
       <div className="chat__input">
         <AddCircleIcon fontSize='large'/>
         <form onSubmit={sendMessage}>
-          <input onChange={e => setInput(e.target.value)} type="text" placeholder={`message here #${channelName}`} disabled={!channelId}/>
+          <input value={input} onChange={e => setInput(e.target.value)} type="text" placeholder={`message here #${channelName}`} disabled={!channelId}/>
           <button className='chat__inputButton' type='submit'> send</button>
         </form>
 
